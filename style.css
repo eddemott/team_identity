@@ -8,7 +8,7 @@ header h1 {
   padding: 15px 25px;
   font-size: 40px;
 }
-
+/*headding formattting for the page*/
 h1 {
   color: #CCC;
   font-size: 35px;
@@ -30,25 +30,24 @@ h3 {
   padding-bottom: 10px;
 }
 
+/*parent div for back_g and personal_id*/
 .profile {
   width: 50%;
   float: left;
 }
 
+/*parent div for collegues*/
 .colleague_list {
   width: 50%;
   float: right;
 }
 
+/*set image size for the page*/
 img {
   height: 200px;
   width: 200px;
   padding: 30px;
   float: left;
-}
-
-.phone i, .mail i {
-  padding-right: 10px;  
 }
 
 .personal_id, .colleague {
@@ -57,6 +56,7 @@ img {
   height: 260px;
 }
 
+/*=contact details*/
 .phone {
   padding-bottom: 15px;
 }
@@ -64,6 +64,9 @@ img {
   color: #D5A725;
   font-size: 20px;
   margin: 0;
+}
+.phone i, .mail i {
+  padding-right: 10px;  
 }
 
 /*=social links*/
@@ -79,7 +82,7 @@ a {
 a:hover {
   border:1px solid white;
 }
-
+/*logos for social links*/
 .facebook {
   background: #23476A;
   background-image: url(images/facebook_logo.png);
@@ -111,13 +114,16 @@ a:hover {
   background-position: center;
 }
 
+/*hover for mail and phone*/
 .phone:hover , .mail:hover {
   color: #FFDEAD;
 }
-
+/*parent div for hobbies, video and details*/
 .back_g {
   background-color: #369;
   margin: 10px;
+
+/*=hobbies section*/
 }
 .details, .hobbies, .video {
   border-bottom: 2px solid #CCC;
@@ -128,10 +134,12 @@ a:hover {
   list-style-type: none;
 }
 
+/*=video section*/
 .video video {
   width: 100%;
 }
 
+/*=details section*/
 .details form {
   margin: auto;
   display: block;
@@ -164,15 +172,11 @@ table {
   margin: auto;
   display: block;
 }
-
+/*=joke section*/
 .joke {
   background-image: url(images/quote_background.jpg);
   height: 150px;
   margin: 10px;
-}
-
-blockquote {
-  margin: 0;
 }
 
 .joke p {
@@ -185,7 +189,7 @@ blockquote {
   text-align: center;
 }
 
-/*=footer*/
+/*=footer section*/
 footer {
   background: #036;
   clear: both;
