@@ -69,8 +69,9 @@ img {
   padding-right: 10px;  
 }
 
+
 /*=social links*/
-a {
+.facebook a, .google a, .twitter a, .linked_in a {
   border-radius: 5px;
   height: 40px;
   width: 13%;
@@ -79,18 +80,23 @@ a {
   margin-right: 1%;
 }
 
-a:hover {
+.mail a {
+  text-decoration: none;
+  color: #D5A725;
+}
+
+.facebook a:hover, .google a:hover, .twitter a:hover, .linked_in a:hover {
   border:1px solid white;
 }
 /*logos for social links*/
-.facebook {
+.facebook a {
   background: #23476A;
   background-image: url(images/facebook_logo.png);
-  background-repeat: no-repeat;
   background-size: 28px;
+  background-repeat: no-repeat;
   background-position: center;
 }
-.google {
+.google a {
   background: #A92A24;
   background-image: url(images/google_logo.png);
   background-repeat: no-repeat;
@@ -98,7 +104,7 @@ a:hover {
   background-position: center;
 }
 
-.twitter {
+.twitter a {
   background-color: #00ABF0;
   background-image: url(images/twitter_logo.png);
   background-repeat: no-repeat;
@@ -106,7 +112,7 @@ a:hover {
   background-position: center;
 }
 
-.linked_in {
+.linked_in a {
   background: black;
   background-image: url(images/linkedin_logo.png);
   background-repeat: no-repeat;
@@ -115,7 +121,7 @@ a:hover {
 }
 
 /*hover for mail and phone*/
-.phone:hover , .mail:hover {
+.phone:hover , .mail a:hover {
   color: #FFDEAD;
 }
 /*parent div for hobbies, video and details*/
