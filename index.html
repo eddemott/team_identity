@@ -1,138 +1,152 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css">
-		<title>Innovation Identity</title>
-	</head>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <title>Innovation Identity</title>
+</head>
 
-	<header>
-		<h1>
-			Innovation Identity
-		</h1>
-	</header>
+<header>
+  <h1>
+    Innovation Identity
+  </h1>
+</header>
 
-	<body>
-		<div class="main">
+<body>
+  <div class="main">
+    <div class="profile">
+      <div class="personal_id">
+        <img src="images/profile_pic.gif" alt="Profile Picture"/>
+        <h1>Ed De Mott</h1>
+        <h3>Developer</h3>
+        <p class="mail"><i class="fa fa-envelope"></i>edward.de-mott@capgemini.com</p>
+        <p class="phone"><i class="fa fa-phone"></i>07810884120</p>
+        <a href="http://www.facebook.com" class="facebook"></a>
+        <a href="http://www.twitter.com" class="twitter"></a>
+        <a href="https://plus.google.com" class="google"></a>
+        <a href="http://www.linkedin.co.uk" class="linked_in"></a>
+        <br>
+      </div>
+      <div class="back_g">
+        <div class="hobbies">
+          <h2>Hobbies/Interests</h2>
+          <ul>
+            <li>Hobby A</li>
+            <li>Hobby B</li>
+            <li>Hobby C</li>
+            <li>Hobby D</li>
+          </ul>
+        </div>
 
-			<div id="personal_id">
-				<img src="images/profile_pic.gif" alt="Profile Picture">
-				<h1>Ed De Mott</h1>
-				<h3>Developer</h3>
-				<p>edward.de-mott@capgemini.com</p>
-				<p>07810884120</p>
-				<a href="" class="facebook"></a>
-				<a href="" class="twitter"></a>
-				<a href="" class="google"></a>
-				<a href="" class="linked_in"></a>
-			</div>
+        <div class="video">
+          <h2>Favourite Video</h2>
+          <video poster="images/poster.png" controls>
+            <source src="http://video.webmfiles.org/big-buck-bunny_trailer.webm" type="video/webm">
+          </video>
+        </div>
 
-			<div id="hobbies">
-				<p>Hobbies/Interests</p>
-				<ul>
-					<li>Hobby A</li>
-					<li>Hobby B</li>
-					<li>Hobby C</li>
-					<li>Hobby D</li>
-				</ul>
-			</div>
+        <div class="details">
+          <h2>Background</h2>
+          <form action="">
+            <label for="education">Education:</label>
+            <select name="education">
+              <option>Primary School</option>
+              <option>Secondary School</option>
+              <option>University</option>
+            </select>
+            <table>
+              <tr>
+                <td><input type="checkbox" name="languages" value="HTML"></td>
+                <td><label for="HTML">HTML</label></td>
+                <td><input type="checkbox" name="languages" value="JavaScript"></td>
+                <td><label for="JavaScript">JavaScript</label></td>
+                <td><input type="checkbox" name="languages" value="Python"></td>
+                <td><label for="Python">Python</label></td>
+                <td><input type="checkbox" name="languages" value="Java"></td>
+                <td><label for="Java">Java</label></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="languages" value="CSS"></td>
+                <td><label for="CSS">CSS</label></td>
+                <td><input type="checkbox" name="languages" value="PHP"></td>
+                <td><label for="PHP">PHP</label></td>
+                <td><input type="checkbox" name="languages" value="SQL"></td>
+                <td><label for="SQL">SQL</label></td>
+                <td><input type="checkbox" name="languages" value="C++"></td>
+                <td><label for="C++">C++</label></td>
+              </tr>
+            </table>
+            <textarea rows="4" cols="50">Tell us about one of your past projects...</textarea>
+            <br>
+            <input class="button" type="submit" value="OK">
+          </form>
+        </div>
+      </div>
 
-			<div id="video">
-				<p>Favourite Video</p>
-				<video width="640" height="360" controls>
-					<source src="//www.youtube.com/embed/nGeKSiCQkPw?feature=player_detailpage"/>
-				</video>
-			</div>
+      <div class="joke">
+        <p>
+          <i class="fa fa-quote-left"></i>
+          What happens when an unstoppable force meets an immovable object
+          <i class="fa fa-quote-right"></i>
+        </p>
+      </div>
+    </div>
 
-			<div id="background">
-				<h2>Background</h2>
-				<form action="">
-					<ul>
-						<li><input type="checkbox" name="languages" value="HTML"></li>
-						<li><label for="HTML">HTML</label></li>
-						<li><input type="checkbox" name="languages" value="JavaScript"></li>
-						<li><label for="JavaScript">JavaScript</label></li>
-						<li><input type="checkbox" name="languages" value="Python"></li>
-						<li><label for="Python">Python</label></li>
-						<li><input type="checkbox" name="languages" value="Java"></li>
-						<li><label for="Java">Java</label></li>
-					</ul>
-					<ul>
-						<li><input type="checkbox" name="languages" value="CSS"></li>
-						<li><label for="CSS">CSS</label></li>
-						<li><input type="checkbox" name="languages" value="PHP"></li>
-						<li><label for="PHP">PHP</label></li>
-						<li><input type="checkbox" name="languages" value="SQL"></li>
-						<li><label for="SQL">SQL</label></li>
-						<li><input type="checkbox" name="languages" value="C++"></li>
-						<li><label for="C++">C++</label></li>
-					</ul>
-					<textarea rows="4" cols="50">Tell us about one of your past projects...</textarea>
-					<input class="button" type="submit" value="OK">
-				</form>
-			</div>
+    <div class="colleague_list">
+      <div class="colleague">
+        <img src="images/colleague_1.gif" alt="Profile Picture">
+        <h1>Colleague 1</h1>
+        <h3>Job Title</h3>
+        <p class="mail"><i class="fa fa-envelope"></i>email@capgemini.com</p>
+        <p class="phone"><i class="fa fa-phone"></i>Telephone</p>
+        <a href="" class="facebook"></a>
+        <a href="" class="twitter"></a>
+        <a href="" class="google"></a>
+        <a href="" class="linked_in"></a>
+      </div>
 
-			<div id="joke">
-				<blockquote>
-					Tell us a funny joke or interesting ting about yourself.
-				</blockquote>
-			</div>
+      <div class="colleague">
+        <img src="images/colleague_2.gif" alt="Profile Picture">
+        <h1>Colleague 2</h1>
+        <h3>Job Title</h3>
+        <p class="mail"><i class="fa fa-envelope"></i>email@capgemini.com</p>
+        <p class="phone"><i class="fa fa-phone"></i>Telephone</p>
+        <a href="" class="facebook"></a>
+        <a href="" class="twitter"></a>
+        <a href="" class="google"></a>
+        <a href="" class="linked_in"></a>
+      </div>
 
-			<div id="colleague_1">
-				<img src="images/colleague_1.gif" alt="Profile Picture">
-				<h1>Colleague 1</h1>
-				<h3>Job Title</h3>
-				<p>email@capgemini.com</p>
-				<p>Telephone</p>
-				<a href="" class="facebook"></a>
-				<a href="" class="twitter"></a>
-				<a href="" class="google"></a>
-				<a href="" class="linked_in"></a>
-			</div>
+      <div class="colleague">
+        <img src="images/colleague_3.gif" alt="Profile Picture">
+        <h1>Colleague 3</h1>
+        <h3>Job Title</h3>
+        <p class="mail"><i class="fa fa-envelope"></i>email@capgemini.com</p>
+        <p class="phone"><i class="fa fa-phone"></i>Telephone</p>
+        <a href="" class="facebook"></a>
+        <a href="" class="twitter"></a>
+        <a href="" class="google"></a>
+        <a href="" class="linked_in"></a>
+      </div>
 
-			<div id="colleague_2">
-				<img src="images/colleague_2.gif" alt="Profile Picture">
-				<h1>Colleague 2</h1>
-				<h3>Job Title</h3>
-				<p>email@capgemini.com</p>
-				<p>Telephone</p>
-				<a href="" class="facebook"></a>
-				<a href="" class="twitter"></a>
-				<a href="" class="google"></a>
-				<a href="" class="linked_in"></a>
-			</div>
-
-			<div id="colleague_3">
-				<img src="images/colleague_3.gif" alt="Profile Picture">
-				<h1>Colleague 3</h1>
-				<h3>Job Title</h3>
-				<p>email@capgemini.com</p>
-				<p>Telephone</p>
-				<a href="" class="facebook"></a>
-				<a href="" class="twitter"></a>
-				<a href="" class="google"></a>
-				<a href="" class="linked_in"></a>
-			</div>
-
-			<div id="colleague_3">
-				<img src="images/colleague_3.gif" alt="Profile Picture">
-				<h1>Colleague 3</h1>
-				<h3>Job Title</h3>
-				<p>email@capgemini.com</p>
-				<p>Telephone</p>
-				<a href="" class="facebook"></a>
-				<a href="" class="twitter"></a>
-				<a href="" class="google"></a>
-				<a href="" class="linked_in"></a>
-			</div>
-
-		</div>
-
-		<footer>
-			<p>
-				Created by Ed De Mott
-			</p>
-		</footer>
-
-	</body>
+      <div class="colleague">
+        <img src="images/colleague_4.gif" alt="Profile Picture">
+        <h1>Colleague 4</h1>
+        <h3>Job Title</h3>
+        <p class="mail"><i class="fa fa-envelope"></i>email@capgemini.com</p>
+        <p class="phone"><i class="fa fa-phone"></i>Telephone</p>
+        <a href="" class="facebook"></a>
+        <a href="" class="twitter"></a>
+        <a href="" class="google"></a>
+        <a href="" class="linked_in"></a>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <p>
+    Created by Ed De Mott
+  </p>
+</footer>
 </html>

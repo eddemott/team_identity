@@ -1,32 +1,193 @@
-@font-face {
-  font-family: '[set]Foundicons';
-  src: url('fonts/[set]_foundicons.eot');
-  src: url('fonts/[set]_foundicons.eot?#iefix') format('embedded-opentype'),
-       url('fonts/[set]_foundicons.woff') format('woff'),
-       url('fonts/[set]_foundicons.ttf') format('truetype'),
-       url('fonts/[set]_foundicons.svg#[set]Foundicons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
- 
-[class*="foundicon-"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: inherit;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0 0;
-  background-repeat: repeat;
-}
- 
-[class*="foundicon-"]:before {
-  font-family: "[set]Foundicons";
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
+body {  
+  background: #CCC;
 }
 
-.foundicon-facebook:before {
-  content: "\f003";
+header h1 {
+  background-color: #036;
+  color: #CCC;
+  padding: 15px 25px;
+  font-size: 40px;
+}
+
+h1 {
+  color: #CCC;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  color: #CCC;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #333;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.profile {
+  width: 50%;
+  float: left;
+}
+
+.colleague_list {
+  width: 50%;
+  float: right;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+  float: left;
+}
+
+.phone i, .mail i {
+  padding-right: 10px;  
+}
+
+.personal_id, .colleague {
+  background-color: #369;
+  margin: 10px;
+  height: 260px;
+}
+
+.phone {
+  padding-bottom: 15px;
+}
+.phone, .mail {
+  color: #D5A725;
+  font-size: 20px;
+  margin: 0;
+}
+
+/*=social links*/
+a {
+  border-radius: 5px;
+  height: 40px;
+  width: 13%;
+  float: left;
+  position: relative;
+  margin-right: 1%;
+}
+
+a:hover {
+  border:1px solid white;
+}
+
+.facebook {
+  background: #23476A;
+  background-image: url(images/facebook_logo.png);
+  background-repeat: no-repeat;
+  background-size: 28px;
+  background-position: center;
+}
+.google {
+  background: #A92A24;
+  background-image: url(images/google_logo.png);
+  background-repeat: no-repeat;
+  background-size: 37px;
+  background-position: center;
+}
+
+.twitter {
+  background-color: #00ABF0;
+  background-image: url(images/twitter_logo.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+.linked_in {
+  background: black;
+  background-image: url(images/linkedin_logo.png);
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-position: center;
+}
+
+.phone:hover , .mail:hover {
+  color: #FFDEAD;
+}
+
+.back_g {
+  background-color: #369;
+  margin: 10px;
+}
+.details, .hobbies, .video {
+  border-bottom: 2px solid #CCC;
+  padding: 15px 30px;
+}
+
+.hobbies ul {
+  list-style-type: none;
+}
+
+.video video {
+  width: 100%;
+}
+
+.details form {
+  margin: auto;
+  display: block;
+}
+
+textarea {
+  font-size: 15px;
+  resize: none;
+  margin: auto;
+  display: block;
+}
+
+select {
+  width: 50%;
+  padding-left: 20px;
+}
+
+.details label {
+  font-size: 19px;
+}
+table {
+  margin: auto;
+}
+.details td {
+  padding: 5px;
+}
+
+.button {
+  width: 25%;
+  margin: auto;
+  display: block;
+}
+
+.joke {
+  background-image: url(images/quote_background.jpg);
+  height: 100px;
+  margin: 10px;
+}
+
+.joke p {
+  margin: 0;
+  font-size: 25px;
+  font-style: italic;
+  color: #CCC;
+  background: rgba(0,0,0,0.5);
+  width: 95%;
+}
+
+/*=footer*/
+footer {
+  background: #036;
+  clear: both;
+}
+
+footer p {
+  color: #CCC;
+  text-align: right;
+  padding: 15px;
 }
