@@ -167,17 +167,22 @@ table {
 
 .joke {
   background-image: url(images/quote_background.jpg);
-  height: 100px;
+  height: 150px;
   margin: 10px;
 }
 
-.joke p {
+blockquote {
   margin: 0;
+}
+
+.joke p {
   font-size: 25px;
   font-style: italic;
   color: #CCC;
   background: rgba(0,0,0,0.5);
-  width: 95%;
+  float: left;
+  margin: 2em;
+  text-align: center;
 }
 
 /*=footer*/
