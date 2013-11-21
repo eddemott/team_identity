@@ -52,17 +52,28 @@ h3 {
 }
 
 /*set image size for the page*/
-img {
+
+img  {
   height: 200px;
   width: 200px;
   padding: 30px;
   float: left;
+  position: relative;
 }
-
-.personal_id, .colleague {
+.colleague {
   background-color: #369;
   margin: 10px;
   height: 260px;
+}
+
+.personal_id {
+  background-color: #369;
+  margin: 10px;
+  height: 260px;
+}
+
+.personal_id ul {
+  margin: 0px;
 }
 
 /*=contact details*/
@@ -80,11 +91,11 @@ img {
 
 
 /*=social links*/
-.personal_id li {
+.personal_id li a {
   display: inline;
 }
 
-.colleague li {
+.colleague li a {
   display: inline;
 }
 
