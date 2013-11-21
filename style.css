@@ -1,3 +1,6 @@
+ul {
+  list-style-type: none;
+}
 body {  
   background: #CCC;
 }
@@ -40,6 +43,8 @@ h3 {
 .colleague_list {
   width: 50%;
   float: right;
+  margin: 0px;
+  padding: 0px;
 }
 
 /*set image size for the page*/
@@ -74,6 +79,10 @@ img {
 
 /*=social links*/
 .personal_id li {
+  display: inline;
+}
+
+.colleague li {
   display: inline;
 }
 
